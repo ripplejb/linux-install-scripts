@@ -2,4 +2,5 @@
 
 ./vscode-inst.sh
 ./install-dotnet.sh
-./antigravit-inst.sh
+# disabling it on the hyprland as it is not working here. Its not antigravity, its nvidia. Maybe in the future
+# ./antigravit-inst.sh

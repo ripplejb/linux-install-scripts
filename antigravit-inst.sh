@@ -17,8 +17,8 @@ cat <<EOF >"$DESKTOP_FILE"
 [Desktop Entry]
 Name=Google Antigravity
 Comment=Agentic Development Platform from Google
-Exec=$INSTALL_DIR/antigravity %F
-Icon=$INSTALL_DIR/resources/app/resources/linux/code.png
+Exec=/home/ripalb/.antigravity/antigravity --enable-features=UseOzonePlatform --ozone-platform=wayland %F
+Icon=/home/ripalb/.antigravity/resources/app/resources/linux/code.png
 Terminal=false
 Type=Application
 Categories=Development;IDE;
